@@ -1,0 +1,22 @@
+[
+    {
+        "adresaMail": "numeBun@hotmail.com", 
+        "idUtilizator": 1,
+        "parola": "parola",
+        "numeUtilizator": "Popescu",
+        "prenumeUtilizator": "Nume generic",
+        "telefonUtilizator": "0741239567",
+        "tipUtilizator": "0"
+
+    },
+    {
+        "adresaMail": "madalinagabriel@hotmail.com", 
+      "idUtilizator": 2,
+        "parola": "parola",
+        "numeUtilizator": "Gabriel",
+        "prenumeUtilizator": "Madalina",
+        "telelefonUtilizator": "0741234568",
+        "tipUtilizator": "1"
+
+    }
+]

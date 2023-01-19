@@ -1,0 +1,26 @@
+[
+    {
+        "idExperienta": 1,
+        "punctPlecare" : "Bucuresti",
+        "punctSosire" : "Iasi",
+        "mijlocTransport" : "Avion",
+        "oraPlecare" : "12:00",
+        "oraSosire" : "14:00",
+        "durataCalatorie" : "2 ore",
+        "gradAglomerare" : "Liber",
+        "observatii" : "Nu exista",
+        "nivelSatulatie" : "1"
+    }
+    , {
+        "idExperienta": 2,
+        "punctPlecare" : "Iasi",
+        "punctSosire" : "Bucuresti",
+        "mijlocTransport" : "Avion",
+        "oraPlecare" : "15:00",
+        "oraSosire" : "17:00",
+        "durataCalatorie" : "2 ore",
+        "gradAglomerare" : "Aglomerat",
+        "observatii" : "Nu exista",
+        "nivelSatulatie" : "1"
+    }
+]

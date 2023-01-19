@@ -4,7 +4,8 @@ import bodyParser from "body-parser";
 import { sequelize } from "./sequelize.js";
 import { experiencesRouter } from "./Routes/experiencesRouter.js";
 import { usersRouter } from "./Routes/usersRouter.js";
-
+import { experiences } from "./Models/experiences.js";
+import { User, users } from "./Models/user.js";
 const app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -13,6 +14,8 @@ app.use(cors());
 
 app.use("/api", experiencesRouter);
 app.use("/api", usersRouter);
+
+//User.hasMany(experiences, { foreignKey: "idUtilizator" });
 
 app.listen(5001, async () => 
 {
